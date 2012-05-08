@@ -1,4 +1,25 @@
 First project for an online-based MUD
 
 
-.
+Goal: Find man with bag of CASH
+
+
+Game engine (maze)
+- save user state
+- save user actions
+- maintain maze state
+
+
+User actions in a room
+- forward, left, right, back (north, south, east, west)
+- talk, read, describe
+
+
+Webapp
+- registration (pete)
+- game action service interaction (phil)
+- location, map and history (beau)
+- Take input from user [REST API] (mike!)
+
+
+
