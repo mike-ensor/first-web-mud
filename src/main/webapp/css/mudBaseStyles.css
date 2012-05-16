@@ -1,0 +1,47 @@
+* {margin:0; padding:0;}
+
+html {
+    font: 90%/1.3 fantasy;
+    padding:1em;
+    background:#000000 !important;
+    color: #00FF00 !important;
+}
+
+input {
+    font: 90%/1.3 fantasy;
+    padding:0em;
+    outline: none;
+    border: none;
+    background:#000000;
+    color: #00FF00;
+}
+
+input:-webkit-autofill {
+    background-color: #000000 !important;
+    color: #00FF00 !important;
+}
+
+.scrollBack {
+    width: auto;
+    background-color: #000000;
+}
+
+.cursor {
+    float: left;
+    overflow: auto;
+}
+
+.cursorText {
+    width: 80em;
+    display: block;
+    background: #000000;
+}
+
+.cursorSpacer {
+    float: left;
+    width: 1px;
+}
+
+input:focus {
+    outline: none;
+}

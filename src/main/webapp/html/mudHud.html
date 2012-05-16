@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Web MUD HUD</title>
+    <link rel="stylesheet" href="../css/mudBaseStyles.css">
+    <!--[if lt IE 9]>
+    <script src=Óhttp://html5shiv.googlecode.com/svn/trunk/html5.jsÓ></script>
+    <![endif]-->
+</head>
+<body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+<script src="../js/mudHud.js"></script>
+<script>
+    $(document).ready(function(){
+        $('form:first *:input[type!=hidden]:first').focus();
+//        blinkCursorOff();
+    });
+</script>
+<div id="scrollBack" class="scrollBack">
+    <div class="cursor">&gt;</div><div class="cursorText">Welcome Explorer!</div>
+    <div class="cursorSpacer"></div><span class="cursorText">Awaiting your command, type ? for help</span>
+</div>
+<div id="commandLine">
+    <form action="" method="post" id="commandLineForm">
+        <p><label id="activeCursor" for="activeCursorInput">&gt</label>
+            <input name="activeCursorInput" id="activeCursorInput" type="text" size="80" autocomplete="off"></p>
+    </form>
+</div>
+</body>
+</html>

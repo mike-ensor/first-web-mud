@@ -7,3 +7,4 @@ target
 *.zip
 apache-tomcat*
 lib
+sandbox*
